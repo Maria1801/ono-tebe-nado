@@ -65,7 +65,7 @@ nav ul li {
 .cover {
   width: 1440px;
   height: 757px;
-  background-image: url("/Users/mariamazur/Desktop/практикум/ono-tebe-nado/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -174,15 +174,15 @@ nav ul li {
   flex-direction: column;
 }
 .card_type_film {
-  background-image: url("/Users/mariamazur/Desktop/практикум/ono-tebe-nado/images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
   background-size: 430px 450px;
 }
 .card_type_book {
-  background-image: url("/Users/mariamazur/Desktop/практикум/ono-tebe-nado/images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
   background-size: 430px 450px;
 }
 .card_type_picture {
-  background-image: url("/Users/mariamazur/Desktop/практикум/ono-tebe-nado/images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
   background-size: 430px 450px;
 }
 .card__title {
