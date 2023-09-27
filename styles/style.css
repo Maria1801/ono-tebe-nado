@@ -11,9 +11,14 @@
 }
 
 .header-logo-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo-image img {
   width: 148px;
   height: 105px;
-  flex: 1;
 }
 
 .header__links-list {
@@ -88,14 +93,11 @@ nav ul li {
 .title_spacing_right {
   letter-spacing: initial;
 }
-.title_wrapping {
-  display: flex;
-  gap: 33px;
-}
 
 .accent-spen {
-  display: block;
-  line-height: 122px;
+  display: flex;
+  gap: 33px;
+  line-height: 121px;
 }
 .text-center {
   display: flex;
