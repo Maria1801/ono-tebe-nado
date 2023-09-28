@@ -30,7 +30,6 @@ body {
 }
 
 .header__links-list {
-  width: 388px;
   text-align: left;
   letter-spacing: 1px;
 }
@@ -74,7 +73,6 @@ nav ul li {
 }
 
 .cover {
-  width: 1440px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,13 +109,14 @@ nav ul li {
 .accent-spen {
   display: flex;
   gap: 33px;
-  line-height: 121px;
+  line-height: 125px;
 }
 
 .text-center {
   display: flex;
   justify-content: center;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   letter-spacing: 5px;
 }
 
@@ -157,7 +156,7 @@ nav ul li {
   align-items: center;
   justify-content: flex-end;
   padding-right: 50px;
-  padding-bottom: 62px;
+  padding-bottom: 51px;
 }
 
 .lots {
