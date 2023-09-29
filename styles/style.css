@@ -195,6 +195,10 @@ nav ul li {
   height: 450px;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card {
   height: 100%;
   background-size: cover;
@@ -237,7 +241,6 @@ nav ul li {
   padding-bottom: 50px;
   padding-left: 40px;
   padding-right: 40px;
-  text-decoration: none;
 }
 
 .lots__look-more-link {
@@ -317,6 +320,10 @@ nav ul li {
   list-style: none;
   text-align: center;
   font-size: 18px;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 .footer__menu {
